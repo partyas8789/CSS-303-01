@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainor{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .subcontainor{
+            width: 100%;
+            height: 80%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+        .uppercontainor{
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+           font-size: 90px;
+        }
+        .middlecontainor{
+            width: 100%;
+            height: 60%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .lowercontainor{
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid red; */
+        }
+        .red{
+            width: 50%;
+            height: 20%;
+            background:linear-gradient(#824815,#df405f,#9c2620); 
+            margin: .25rem;
+            display: flex;
+            
+            
+        }
+        .innercontainer{
+            width: 50%;
+            height: 100%;
+            margin-left: 40%;
+            display: flex;
+            /* border: 2px solid rgb(156, 134, 134); */
+        }
+        .white{
+            width: 95%;
+            height: 100%;
+            background-color: white;
+            opacity: 0.6;
+        }
+        .black{
+            width: 5%;
+            height: 100%;
+            display: flex;
+            /* border: 2px solid rgb(156, 134, 134); */
+        }
+        .line{
+            height: 100%;
+            width: 33%;
+            background-color: black;
+        }
+        .line1{
+            height: 100%;
+            width: 33%;
+            background-color: white;
+            opacity: 0.6;
+        }
+        .green{
+            width: 50%;
+            height: 20%;
+            background:linear-gradient(#55690d,#6bd834,#156b38); 
+            margin: .25rem;           
+        }
+        .blue{
+            width: 50%;
+            height: 20%;
+            background:linear-gradient(#0f465a,#3b6bee,#2f31aa); 
+            margin: .25rem;                
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainor">
+        <div class="subcontainor">
+            <div class="uppercontainor">
+                <h1>CSS Colour Markers</h1>
+            </div>
+            <div class="middlecontainor">
+                <div class="red">
+                    <div class="innercontainer">
+                        <div class="black">
+                            <div class="line"></div>
+                            <div class="line1"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="white">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="green">
+                    <div class="innercontainer">
+                        <div class="black">
+                            <div class="line"></div>
+                            <div class="line1"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="white">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="blue">
+                    <div class="innercontainer">
+                        <div class="black">
+                            <div class="line"></div>
+                            <div class="line1"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="white">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lowercontainor"></div>
+        </div>
+    </div>
+</body>
+</html>
